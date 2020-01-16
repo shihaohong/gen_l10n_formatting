@@ -1,0 +1,18 @@
+{
+    "responseDueBy": "The response is due by {time} on {day}.",
+    "@responseDueBy": {
+        "description": "Response due time",
+        "placeholders": {
+            "time": {
+                "description": "Time that the response is due",
+                "type": "DateTime",
+                "format": "Hm"
+            },
+            "day": {
+                "description": "Day that the response is due",
+                "type": "DateTime",
+                "format": "yMMMMEEEEd"
+            }
+        }
+    }
+}
